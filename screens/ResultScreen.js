@@ -132,7 +132,7 @@ export default function ResultScreen({ navigation, route }) {
               color={THEME.colors.backgroundPrimary}
               style={{ marginRight: 8 }}
             />
-            <Text style={styles.prayAgainText}>Pray Again / New Burden</Text>
+            <Text style={styles.prayAgainText}>Bring Another Concern</Text>
           </TouchableOpacity>
         </ScrollView>
       </SafeAreaView>
