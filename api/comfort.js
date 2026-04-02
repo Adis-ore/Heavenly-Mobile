@@ -1,9 +1,12 @@
 import axios from 'axios';
 
-// Android emulator: http://10.0.2.2:5000
-// iOS simulator: http://localhost:5000
-// Physical device (Expo Go): use your machine's local IP below
-const BASE_URL = 'http://10.207.88.66:5000';
+// Production backend
+const BASE_URL = 'https://heavenly-backend-p7sp.onrender.com';
+
+// For local development, swap to one of:
+// Android emulator:  http://10.0.2.2:5000
+// iOS simulator:     http://localhost:5000
+// Physical device:   http://<your-local-ip>:5000
 
 const api = axios.create({
   baseURL: BASE_URL,
